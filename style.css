@@ -8,6 +8,11 @@ body {
     font-family: "Times New Roman", sans-serif;
 }
 
+.content{
+    max-width: 1500px;
+    text-align: center;
+    margin: auto;
+}
 header{
     display: flex;
     width: 50%;
@@ -36,11 +41,12 @@ nav{
 
 .nav-links{
     justify-content: space-around;
-    
+    list-style-type:none;
 }
 
 .nav-link{
     text-decoration: none;
+    display: inline;
 }
 
 .shoppingcart{
