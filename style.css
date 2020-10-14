@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", sans-serif;
+}
+
+header{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    /*height: 2vh;*/
+    align-items: center;
+
+}
+
+.company-logo, .nav-links, .shoppingcart{
+    display:flex;
+}
+.company-logo{
+    flex: 1;
+}
+
+.logo{
+    font-weight: 400;
+    margin: 5px;
+}
+
+nav{
+    flex: 2;
+    list-style: none;
+}
+
+.nav-links{
+    justify-content: space-around;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.shoppingcart{
+    flex: 1;
+}
+
