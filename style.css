@@ -16,7 +16,8 @@ body {
 header{
     display: flex;
     width: 50%;
-    margin: auto;
+    height: 50px;
+    margin:30px auto;
     /*height: 2vh;*/
     align-items: center;
 
@@ -24,6 +25,8 @@ header{
 
 .company-logo, .nav-links, .shoppingcart{
     display:flex;
+    height: inherit;
+    width:auto;
 }
 .company-logo{
     flex: 1;
