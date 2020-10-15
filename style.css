@@ -49,16 +49,15 @@ justify-content: space-around;
 
 }
 
-<<<<<<< Updated upstream
+
 .nav-links{
     justify-content: space-around;
     list-style-type:none;
-=======
+}
 
 .shopping-cart{
     flex: 1;
     
->>>>>>> Stashed changes
 }
 
 .shopping-cart{
@@ -68,14 +67,10 @@ justify-content: space-around;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
-<<<<<<< Updated upstream
-    display: inline;
-}
-=======
     display: inline-block;
     font-size: 10px;
   }
->>>>>>> Stashed changes
+
 
 .black-shirt{
     border-style: solid;
