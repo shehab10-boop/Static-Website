@@ -14,6 +14,7 @@ body {
     text-align: center;
     margin: auto;
 }
+
 header{
    margin: 0;
     display: flex;
@@ -21,7 +22,6 @@ header{
     height: 12vh;
     margin: auto;
     align-items: center;
-
 }
 
 .company-logo, .nav-links, .shopping-cart{
@@ -83,6 +83,23 @@ nav{
     padding: 20px;
 }
 
+.subimages{
+    margin: auto;
+    text-align: center;
+}
+.subimages img{
+    height: 50px;
+    width: auto;
+    padding: 15 px;
+    float: left;
+    display: inline-block;
+}
+
+.mainImage{
+    height: auto;
+    width: auto;
+}
+
 .SizeChoices {
     border: honeydew;
     background-color: white;
@@ -90,48 +107,39 @@ nav{
     font-size: 100px;
     cursor: pointer;
     display: inline-block;
-  }
-  
-
-  
-  .ExtraSmall{
-      color: black;
-      font-size: 16px;
-      border-radius: 4px;
-    }
-    .Small{
-      color: black;
-      font-size: 16px;
-      border-radius: 4px;
-    }
-  .Medium{
-      color: black;
-      font-size: 16px;
-      border-radius: 4px;
-    }
-  .Large {
-      color: black;
-      font-size: 16px;
-      border-radius: 4px;
-    }
-  .ExtraLarge {
-      color: black;
-      font-size: 16px;
-      border-radius: 4px;
-    }
-
-    .AddToCart{
-        padding: 20px;
-        text-align: center;
-    }
-  
-.white-shirt{
-    
-    float: left;
-
 }
 
-.blue-shirt{
-  padding: 10px;
-    float: left;
+.ExtraSmall{
+    color: black;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.Small{
+    color: black;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.Medium{
+    color: black;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.Large {
+    color: black;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.ExtraLarge {
+    color: black;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.AddToCart{
+    padding: 20px;
+    text-align: center;
 }
