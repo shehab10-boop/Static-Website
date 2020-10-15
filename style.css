@@ -9,7 +9,8 @@ body {
 }
 
 .content{
-    max-width: 1500px;
+    width: 80%;
+    max-width: 1000px;
     text-align: center;
     margin: auto;
 }
@@ -40,23 +41,18 @@ header{
 }
 
 nav{
-list-style: none;
+    list-style: none;
     font-family: 'Times New Roman', Times, serif;
-font-size: large;
-font-style:normal;
-color: white;
-padding: 8px;
-text-decoration: none;
-justify-content: space-around;
-}
-
-.nav-list{
-    display: inline;
-}
-
-.nav-links{
+    font-size: large;
+    font-style:normal;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
     justify-content: space-around;
-    list-style-type:none;
+}
+
+.nav-list li{
+    display: inline;
 }
 
 .shopping-cart{
