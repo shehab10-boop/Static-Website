@@ -14,19 +14,22 @@ body {
     margin: auto;
 }
 header{
+   margin: 0;
     display: flex;
-    width: 50%;
+    width: 90%;
+    height: 12vh;
     margin: auto;
-    /*height: 2vh;*/
     align-items: center;
 
 }
 
-.company-logo, .nav-links, .shoppingcart{
+.company-logo, .nav-links, .shopping-cart{
     display:flex;
 }
 .company-logo{
     flex: 1;
+    height: 100px;
+    width: 50%;
 }
 
 .logo{
@@ -35,21 +38,48 @@ header{
 }
 
 nav{
-    flex: 2;
-    list-style: none;
+list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+font-size: large;
+font-style:normal;
+color: white;
+padding: 8px;
+text-decoration: none;
+justify-content: space-around;
+
 }
 
+<<<<<<< Updated upstream
 .nav-links{
     justify-content: space-around;
     list-style-type:none;
+=======
+
+.shopping-cart{
+    flex: 1;
+    
+>>>>>>> Stashed changes
 }
 
-.nav-link{
+.shopping-cart{
+    background-color: white; 
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
     text-decoration: none;
+<<<<<<< Updated upstream
     display: inline;
 }
+=======
+    display: inline-block;
+    font-size: 10px;
+  }
+>>>>>>> Stashed changes
 
-.shoppingcart{
-    flex: 1;
+.black-shirt{
+    border-style: solid;
+    border-color: black;
+    
+    
 }
-
