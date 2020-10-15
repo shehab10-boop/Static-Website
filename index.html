@@ -1,65 +1,75 @@
 <!DOCTYPE HTML>
 
 <html> 
-    <head>
-        <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel = "stylesheet" href ="./style.css" />
-    
-    <title> Shopping Galore </title>
-    </head>
 
-    <body>
-        <div class = "content">
+ <head>
+     <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel = "stylesheet" href ="./style.css" />
+  
+  <title> Shopping Galore </title>
+</head>
 
-            <header>
-                <div class="company-logo">
-                    <img src="./img/shopping galore.png" alt="logo">
-                </div>
-                <nav>
-                    <ul class="nav-links">
-                        <li><a class="nav-link"href="#">Home</a></li>
-                        <li><a class="nav-link" href="#">Shop by Department</a></li>
-                        <li><a class="nav-link" href="#">Contact Us</a></li>
-                    </ul>   
-                </nav>
-                <div class="shopping-cart">
-                    <img src="./img/cart.png" alt="cart">
-                
-                </div>
-            </header>
-
-            <div class = "ItemInfo">
-                <!--TODO-->
-                <img src = "INSERT PIC SOURCE" alt = "NAME">
-
-                <div class = "ItemSmallDesc">
-                    <p>item short desc</p>
-                    <ul class = "ItemSpecs">
-                        <li>item specs</li>
-                    </ul>
-                </div>
-
+<body>
+    <header>
+        <div class="company-logo">
+            <img src="./img/shopping galore.png" alt="logo">
+        </div>
+        <nav>
+            <ul class = "nav-list">
+            <li><a class = "list" href="Home">Home</a></li>
+            <li><a class = "list" href="Shop By Department">Shop By Department</a></li>
+            <li><a class = "list" href="Locations">Locations</a></li>
+            <li><a class = "list" href="Contact Us">Contact Us</a></li>
+        </ul>
+        </nav>
+        <div class="shopping-cart">
+            <img src="./img/cart.png" height="50">
+            <div>
+            <button class="cta-view">View Cart</button>
             </div>
+        </div>
+    </header>
 
-            <br>
-            <br>
+<body><div class="topnav">
 
-            <div class = "ItemLongInfo">
-                <h2>Description
-                    <h3>This where the description is.</h3>
-                </h2>
-            </div>
-            <div class = "Item Reviews">
-                <h2>Ratings/Review
-                    <h3>No ratings on this product yet.</h3>
-                </h2>
-            </div>
-            <div class = "Related Items">
-                <h2>Similar Products</h2>
-            </div>
-            
-        </div class = "content">
-    </body>
+    <input type="text" placeholder="Search..">
+  </div>
+</body>
+
+    <main>
+        <section class="product">
+        <div class="black-shirt">
+<img src="./img/blackshirt.jpg" height="150">
+</div>    
+<div class="Title">
+    <p>100% Cotton Plain T-Shirt</p></div>
+    <div class="Description">
+<p>Made of 100% cotton material, perfect for the summer season. Stock is running out. Hurry in before it is out of stock.</p>
+    </div>
+    <div class="AddToCart">
+        <button class="cta-add">Add to Cart</button>
+    </div>  
+</section>
+<div class = "ItemLongInfo">
+    <h2>Description
+        <h3>This where the description is.</h3>
+    </h2>
+</div>
+<div class = "Item Reviews">
+    <h2>Ratings/Review
+        <h3>No ratings on this product yet.</h3>
+    </h2>
+</div>
+<div class = "Related Items">
+    <h2>Similar Products</h2>
+</div>
+</main>
+
+
+
+   
+</body>
+
 </html>

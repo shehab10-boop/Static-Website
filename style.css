@@ -14,22 +14,24 @@ body {
     margin: auto;
 }
 header{
+   margin: 0;
     display: flex;
-    width: 50%;
-    height: 50px;
-    margin:30px auto;
-    /*height: 2vh;*/
+    width: 90%;
+    height: 12vh;
+    margin: auto;
     align-items: center;
 
 }
 
-.company-logo, .nav-links, .shoppingcart{
+.company-logo, .nav-links, .shopping-cart{
     display:flex;
     height: inherit;
     width:auto;
 }
 .company-logo{
     flex: 1;
+    height: 100px;
+    width: 50%;
 }
 
 .logo{
@@ -38,21 +40,43 @@ header{
 }
 
 nav{
-    flex: 2;
-    list-style: none;
+list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+font-size: large;
+font-style:normal;
+color: white;
+padding: 8px;
+text-decoration: none;
+justify-content: space-around;
+
 }
+
 
 .nav-links{
     justify-content: space-around;
     list-style-type:none;
 }
 
-.nav-link{
-    text-decoration: none;
-    display: inline;
-}
-
-.shoppingcart{
+.shopping-cart{
     flex: 1;
+    
 }
 
+.shopping-cart{
+    background-color: white; 
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+
+
+.black-shirt{
+    border-style: solid;
+    border-color: black;
+    
+    
+}
