@@ -48,9 +48,11 @@ color: white;
 padding: 8px;
 text-decoration: none;
 justify-content: space-around;
-
 }
 
+.nav-list{
+    display: inline;
+}
 
 .nav-links{
     justify-content: space-around;
@@ -59,10 +61,6 @@ justify-content: space-around;
 
 .shopping-cart{
     flex: 1;
-    
-}
-
-.shopping-cart{
     background-color: white; 
     border: none;
     color: white;
@@ -71,12 +69,10 @@ justify-content: space-around;
     text-decoration: none;
     display: inline-block;
     font-size: 10px;
-  }
+}
 
 
 .black-shirt{
     border-style: solid;
-    border-color: black;
-    
-    
+    border-color: black;    
 }
