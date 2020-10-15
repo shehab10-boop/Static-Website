@@ -70,5 +70,11 @@ nav{
 
 .black-shirt{
     border-style: solid;
-    border-color: black;    
+    border-color: gray;   
+    float: left; 
+    
+}
+
+.Title{
+    font: bold;
 }
