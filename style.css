@@ -121,6 +121,8 @@ section {
     font-size: 25px;
     cursor: pointer;
     display: inline-block;
+    margin: 10px 4px 4px 4px;
+    padding: 4px;
 }
 
 .SizeChoices > button{
@@ -134,6 +136,9 @@ section {
 .AddToCart{
     text-align: left;
     vertical-align: middle;
+    margin: 5px 0;
+    padding: 0;
+
 }
 
 .Price{
@@ -152,6 +157,10 @@ section {
     text-align: left;
 }
 
+.ItemLongInfo p{
+    padding-left: 10px;
+    margin: 5px 0px;
+}
 #itemReviews{
     margin-top: 15px;
 }
