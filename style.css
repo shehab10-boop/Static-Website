@@ -199,22 +199,25 @@ section {
 }
 
 .relatedItem {
-    display: inline;
+    display: inline-block;
     overflow: hidden;
     max-width :150px;
     text-align: center;
+    margin: auto;
+    height: max-content;
+    object-fit: cover;
 }
 .relatedItem>img{
     max-height: 130px;
     Width:auto;
-    margin: 10px 15px 0px 15 px;
+    margin: auto;
     display: inline-block;
 }
 .relatedItem>p {
-    display: inline;
     overflow: hidden;
     max-width :150px;
     text-align: center;
+    display: inline-block;
 }
 
 @media (max-width:1025px){
