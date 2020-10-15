@@ -181,6 +181,11 @@ section {
 .rating{
     padding-left: 10px;
 }
+
+.reviewer{
+    font-weight: bold;
+}
+
 .ratingInfo{
     padding-left: 25px;
 }
