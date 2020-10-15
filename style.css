@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 2px;
+    padding: 2px;
     box-sizing: border-box;
 }
 
@@ -76,22 +76,27 @@ section {
     overflow: auto;
 }
 
-.images{
+.product{
+    display: flex;
+    width: 100%;
+    height:auto;
+}
+.prodImages{
     border-style: solid;
     border-color: gray;   
     float: left; 
     padding: 20px;
+    width: 500px;
     
 }
 
-.product{
-    display: block;
-    width: 100%;
-    height:auto;
+.prodInfo{
+    margin: 0 10px 10px 10px;
+    text-align: left;
 }
+
 .Title{
-    font: bold;
-    padding: 20px;
+    font-weight: bold;
 }
 
 .subimages{
@@ -110,60 +115,45 @@ section {
     width: auto;
 }
 
-.Price{
-    font: bold;
-    align-items: center;
-    font-size: 25px;
-    margin: 5vh;
-}
-
 .SizeChoices {
     border: honeydew;
     background-color: white;
-    padding: 14px 28px;
-    font-size: 100px;
+    font-size: 25px;
     cursor: pointer;
     display: inline-block;
 }
 
-.ExtraSmall{
-    color: black;
+.SizeChoices > button{
     font-size: 16px;
-    border-radius: 4px;
-}
-
-.Small{
-    color: black;
-    font-size: 16px;
-    border-radius: 4px;
-}
-
-.Medium{
-    color: black;
-    font-size: 16px;
-    border-radius: 4px;
-}
-
-.Large {
-    color: black;
-    font-size: 16px;
-    border-radius: 4px;
-}
-
-.ExtraLarge {
-    color: black;
-    font-size: 16px;
-    border-radius: 4px;
+    border-radius: 5px;
+    padding: 2px 4px;
+    margin: 5px auto;
+    border: 1px solid rgb(39, 39, 39);
 }
 
 .AddToCart{
-    padding: 20px;
-    text-align: center;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.Price{
+    font-weight: bold;
+    align-items: center;
+    font-size: 25px;
+    overflow:auto;
+    display: inline;
+}
+.Price p{
+    display: inline;
 }
 
 .additional{
-    margin-top:30 px;
+    margin-top:30px;
     text-align: left;
+}
+
+#itemReviews{
+    margin-top: 15px;
 }
 
 .rating{
@@ -171,4 +161,19 @@ section {
 }
 .ratingInfo{
     padding-left: 25px;
+}
+
+#relatedItems{
+    margin-top: 15px;
+}
+
+.relatedItem {
+    display: inline;
+    overflow: auto;
+    
+}
+.relatedItem>img{
+    height: 100px;
+    Width:auto;
+    margin: 10px 15px;
 }
