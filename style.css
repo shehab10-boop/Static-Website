@@ -94,9 +94,6 @@ section {
     padding: 20px;
 }
 
-.body{
-    background: rgb(162, 179, 162);
-}
 .subimages{
     margin: auto;
     text-align: center;
@@ -106,7 +103,6 @@ section {
     width: auto;
     padding: 15 px;
     float: left;
-    display: inline-block;
 }
 
 .mainImage{
@@ -156,4 +152,9 @@ section {
 .AddToCart{
     padding: 20px;
     text-align: center;
+}
+
+.additional{
+    margin-top:30 px;
+    text-align: left;
 }
