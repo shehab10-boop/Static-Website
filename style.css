@@ -165,3 +165,10 @@ section {
     margin-top:30 px;
     text-align: left;
 }
+
+.rating{
+    padding-left: 10px;
+}
+.ratingInfo{
+    padding-left: 25px;
+}
