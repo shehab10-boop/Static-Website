@@ -103,6 +103,13 @@ nav{
     width: auto;
 }
 
+.Price{
+    font: bold;
+    align-items: center;
+    font-size: 25px;
+    margin: 5vh;
+}
+
 .SizeChoices {
     border: honeydew;
     background-color: white;
