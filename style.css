@@ -71,13 +71,24 @@ nav{
     padding: 20px;
 }
 
+section {
+    margin: 15px auto 20px auto;
+    overflow: auto;
+}
+
 .images{
     border-style: solid;
     border-color: gray;   
     float: left; 
     padding: 20px;
+    
 }
 
+.product{
+    display: block;
+    width: 100%;
+    height:auto;
+}
 .Title{
     font: bold;
     padding: 20px;
