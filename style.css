@@ -83,6 +83,9 @@ nav{
     padding: 20px;
 }
 
+.body{
+    background: rgb(162, 179, 162);
+}
 .subimages{
     margin: auto;
     text-align: center;
